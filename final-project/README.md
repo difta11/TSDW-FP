@@ -20,7 +20,7 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 
-## 2. Install Dependensi
+## 3. Install Dependensi
 pip install -r requirements.txt
 
 # Struktur File
