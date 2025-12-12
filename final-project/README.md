@@ -25,22 +25,20 @@ pip install -r requirements.txt
 
 # Struktur File
 ```
-project-spotify/
+final-project/
 │
 ├── data/
-│   └── spotify_raw.csv          # Dataset asli
+│   ├── raw/                       # Dataset mentah
+│   │   └── spotify_songs.csv
+│   │
+│   └── processed/                 # Dataset setelah dibersihkan
+│       └── spotify_songs_cleaned.csv
 │
-├── output/
-│   └── data_clean.csv           # Data hasil cleaning
+├── notebooks/
+│   └── final_project.ipynb        # Notebook analisis utama
 │
-├── src/
-│   ├── cleaning.py              # Modul untuk cleaning data
-│   ├── analysis.py              # Analisis & visualisasi
-│   └── utils.py                 # Fungsi tambahan
-│
-├── main.py                      # Script utama menjalankan project
-├── requirements.txt             # Daftar library yang diperlukan
-└── README.md                    # Dokumentasi proyek
+├── requirements.txt               # Daftar package Python yang digunakan
+└── README.md                      # Dokumentasi final project
 ```
 
 # Deskripsi Proses Pengolahan Data
