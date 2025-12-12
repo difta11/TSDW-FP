@@ -24,6 +24,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Struktur File
+```
 project-spotify/
 │
 ├── data/
@@ -40,6 +41,7 @@ project-spotify/
 ├── main.py                      # Script utama menjalankan project
 ├── requirements.txt             # Daftar library yang diperlukan
 └── README.md                    # Dokumentasi proyek
+```
 
 # Deskripsi Proses Pengolahan Data
 ## 1. Import Dataset
