@@ -64,3 +64,7 @@ data/processed/spotify_songs_cleaned.csv
 ### - Analisis pola tren banyak produksi genre dari tahun ke tahu
 ### - Analisis perubahan Rata-rata Tempo dan Valence dari Tahun ke Tahun
 ### - Heatmap korelasi
+
+## 6. Table Ringkasan
+### - Menghitung korelasi antara popularitas dengan fitur audio utama
+### - Statistik Performa per Genre
