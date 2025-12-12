@@ -1,4 +1,4 @@
-# NAMA ANGGOTA KELOMPOK:
+# NAMA ANGGOTA KELOMPOK 1:
 | No | Nama                    | NRP        |
 | -- | ----------------------- | ---------- |
 | 1  | Bassa Bhaskara Desno G. | 5052241030 |
