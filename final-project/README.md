@@ -20,7 +20,7 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 
-# Install Dependensi
+## 2. Install Dependensi
 pip install -r requirements.txt
 
 # Struktur File
@@ -40,3 +40,27 @@ project-spotify/
 ├── main.py                      # Script utama menjalankan project
 ├── requirements.txt             # Daftar library yang diperlukan
 └── README.md                    # Dokumentasi proyek
+
+# Deskripsi Proses Pengolahan Data
+## 1. Import Dataset
+Mengambil dataset Spotify dari folder data/raw.
+
+## 2. Data Cleaning
+### - Menghapus nilai kosong
+### - Menghapus data duplikat
+### - Normalisasi tipe data
+
+## 3. Transformasi Data
+
+### Pemilihan kolom penting
+
+## 4. Export Data
+
+### Data hasil pembersihan diekspor ke:
+data/processed/spotify_songs_cleaned.csv
+
+## 5. Analisis dan Visualisasi
+
+### - Analisis pola tren banyak produksi genre dari tahun ke tahu
+### - Analisis perubahan Rata-rata Tempo dan Valence dari Tahun ke Tahun
+### - Heatmap korelasi
